@@ -136,12 +136,12 @@ button {
   align-items: center;
   margin-left: 24px;
   color: #1B1C21;
+  letter-spacing: -0.2px;
 }
 
 .nav__link:hover,
 .nav__link--active {
   color: #41F6D7;
-
   transition: 0.2s;
 }
 
