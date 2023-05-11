@@ -65,7 +65,7 @@ a {
 
 a,
 button {
-    cursor: pointer;
+cursor: pointer;
 }
 
 .aside {
@@ -129,6 +129,7 @@ transition: all 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  color: #1B1C21;
 }
 
 .nav__link {
