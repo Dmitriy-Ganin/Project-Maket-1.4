@@ -135,6 +135,9 @@ button {
   display: flex;
   align-items: center;
   margin-left: 24px;
+  font-family: "TT Lakes";
+  font-size: 16px;
+  font-weight: 600;
   color: #1B1C21;
   letter-spacing: -0.2px;
 }
