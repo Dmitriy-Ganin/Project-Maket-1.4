@@ -85,10 +85,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 19px;
-  margin-bottom: 46px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 19px;
+  margin-bottom: 20px;
 }
 
 .header__logo {
@@ -199,12 +199,12 @@ button {
   margin-bottom: 32px;
 }
 
-.footer__actions {
+.actions {
   display: flex;
   gap: 16px;
 }
 
-.email-address {
+.footer__email-address {
   display: block;
   text-decoration: none;
   margin-top: 16px;
@@ -216,7 +216,7 @@ button {
   font-weight: 500;
 }
 
-.tel-numb {
+.footer__tel-numb {
   display: block;
   margin-top: 12px;
   margin-bottom: 12px;
@@ -229,15 +229,15 @@ button {
   font-weight: 900;
 }
 
-.radio {
+.radio__lang {
   appearance: none;
 }
 
-.radio:checked+.abbreviation {
+.radio__lang:checked+.radio__abbreviation {
   color: #7E7E82;
 }
 
-.lang span {
+.radio__abbreviation {
   font-family: "TT Lakes";
   font-size: 16px;
   line-height: 24px;
